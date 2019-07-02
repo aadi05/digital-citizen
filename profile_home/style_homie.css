@@ -1,0 +1,115 @@
+body {margin: 0;}
+
+.navigation1{
+    background-color: #333;
+
+}
+
+ul.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.navigation1 h1{
+    float:left;
+    background-color: #333;
+    margin-top:2px;
+    color:white;
+    margin-bottom:0;
+    margin-left:0;
+    padding: 15 0 15 10;
+}
+
+ul.navigation li {float: left;}
+
+ul.navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.navigation li a:hover:not(.active) {background-color: #111;}
+
+ul.navigation li a.active {background-color: #4CAF50;}
+
+ul.navigation li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.navigation li.right, 
+    ul.navigation li {float: none;}
+}
+
+
+
+
+.srcbar{
+        margin-left: 18%;
+/*        margin-right: 10%;*/
+        margin-top: .925%;
+        margin-bottom: .525%;
+        float: left;
+        background-color:#333;
+    }
+
+    .mag{
+        text-decoration: none;
+        border-top-right-radius:14px;
+        border-bottom-right-radius:14px;
+        float:left;
+        width:42px;
+        height:40px;
+        border-style: none;
+    }
+
+    .box{
+        padding-left:6px;
+        border-radius:14px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-style:flat;
+        font-family:Arial;
+        float:left;
+        font-size: 24px;
+        width:700px;
+        height:40px;
+        border-style: none;
+    }
+
+
+    /*Location selection bar*/
+    .location{
+        padding:6px;
+        margin-top: .925%;
+        margin-bottom: .525%;
+        margin-right: 15px;
+        font-family:Arial;
+        font-size:16px;
+        color:gray;
+        float:right;
+        border-style:flat;
+        border-radius:14px;
+    }
+
+    #movie1,#movie4,#movie7,#movie10{
+        height:50%;
+        width:16%;
+        margin:2% 2% 2% 18.5%;
+        border-radius:10px;
+    }
+    #movie2,#movie5,#movie8{
+        height:50%;
+        width:16%; 
+        margin:2% 5% 2% 5%;
+        border-radius:10px;
+
+    }
+    #movie3,#movie6,#movie9{
+        height:50%;
+        width:16%; 
+        margin:2% 5% 2% 2%;
+        border-radius:10px;
+    }
